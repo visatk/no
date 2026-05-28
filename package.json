@@ -13,19 +13,23 @@
   },
   "dependencies": {
     "@marsidev/react-turnstile": "1.5.2",
+    "@hono/zod-validator": "^0.7.6",
     "@tailwindcss/vite": "^4.3.0",
     "drizzle-orm": "^0.45.2",
     "hono": "^4.12.23",
     "lucide-react": "^1.17.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
-    "tailwindcss": "^4.3.0"
+    "react-router-dom": "^7.15.1",
+    "tailwindcss": "^4.3.0",
+    "zod": "^3.24.4"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "^1.39.0",
     "@eslint/js": "^10.0.1",
     "@types/node": "^24.12.4",
     "@types/react": "^19.2.14",
+    "@types/cloudflare-turnstile": "^0.2.2",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",
     "drizzle-kit": "^0.31.10",
